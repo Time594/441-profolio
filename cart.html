@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--insert script-->
+    <script src="script.js">
+       
+
+
+    </script>
+</head>
+<body>
+    <div class="cartjump">
+        <a href="cart.html"><img src="img/cart.png"></a>      <!--cart logo&link-->
+    </div>
+
+    <div class="navcontain">      <!--a navbar-->
+        <button onclick="loginout()" class="loginoutbt">Login out</button>
+        <ul class="navbar">
+            <li><a href="index.html">About US</a></li>
+            <li><a href="cart.html">Courseware</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+        </ul>
+    </div>
+
+    <!--title-->
+    <h1>Resource Kits</h1>  
+    <!--course content-->
+    <div class="content">      
+        <div class="course" title="Description: This is a course about Java">
+            <h1>ICT62601</h1>
+            <p>$10</p>
+            <input type="text" class="in" placeholder="Quantity"> 
+            <input type="button" id="button1" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about C++">
+            <h1>ICT62602</h1>
+            <p>$20</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button2" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about Python">
+            <h1>ICT62603</h1>
+            <p>$50</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button3" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about C">
+            <h1 class=>ICT62604</h1>
+            <p>$80</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button4" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about Javascript">
+            <h1 class=>ICT62605</h1>
+            <p>$150</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button4" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about Node.js">
+            <h1 class=>ICT62606</h1>
+            <p>$140</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button4" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about Ruby">
+            <h1 class=>ICT62607</h1>
+            <p>$30</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button4" class="button" value="Add to Cart">
+        </div>
+
+        <div class="course" title="Description: This is a course about Rust">
+            <h1 class=>ICT62608</h1>
+            <p>$80</p>
+            <input type="text" class="in" placeholder="Quantity">
+            <input type="button" id="button4" class="button" value="Add to Cart">
+        </div>
+    </div>  
+
+    <!--cart content area-->
+    <div class="content2">    
+        <!--cart title-->
+        <h1 class="content2h1">Shopping Cart</h1>
+        <!--cart area-->
+        <div class="cartcontainor"></div>
+        <!--button&totalprice area-->
+        <div class="area1">
+            <div class="totalprice">Total: $00.00</div>
+            <!--make the button easy to layout-->
+            <div class="buttonarea">
+                <button id="checkout" class="checkout" onclick="checkoutbutton626()">Checkout</button>
+                <button id="empty-cart" class="empty-cart">Empty Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!--a footer include company details-->
+    <footer class="site-footer">
+        <p>&copy; Time. Copyright.</p>
+        <p>CODE: 2******26</p>
+        <h4>Contact Us</h4>
+        <p><strong>Address:</strong> 123 Innovation Ave, Techville, NSW 2000, Australia</p>
+        <p><strong>Telephone Number:</strong> +61 2 8375 5555</p>
+        <p><strong>Email:</strong> 123456@time.com</p>
+    </footer>
+</body>
+</html>
